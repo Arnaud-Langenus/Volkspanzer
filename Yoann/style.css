@@ -1,0 +1,154 @@
+
+@media screen and (max-width: 992px) {
+ .navbar-toggler {
+     background-color: #5B7151;
+     color: #E8E8E8;
+     font-family: 'Roboto Mono', monospace;
+     border: none;
+ }
+}
+
+body {
+    background-color: #E8E8E8;
+    margin: auto;
+}
+
+.navbar-custom {
+    background-color: #FFD500;
+    padding-top: 10PX;
+    padding-bottom: 10px;
+}
+
+A.nav-link {
+    font-family: 'Roboto Mono', monospace;
+    color: #5B7151;
+}
+
+A.nav-link:hover {
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: underline;
+}
+
+.btn-custom {
+    background-color: #5B7151;
+    color: #E8E8E8;
+    margin-right: 10px;
+}
+
+
+h1{
+    font-family: 'Palanquin Dark', sans-serif;
+    font-size: 400%;
+padding-bottom: 100px;
+}
+
+
+h3 {
+    font-family: 'Palanquin Dark', sans-serif;
+    color: #5B7151;
+Border-bottom: 3px solid #FFD500;
+}
+
+p {
+    font-family: 'Roboto Mono', monospace;
+    color: #8A8080;
+}
+
+
+
+
+h4 {
+    font-family: 'Palanquin Dark', sans-serif;
+    color: #5B7151;
+    text-decoration: underline;
+}
+
+h6 {
+    font-size: 70%;
+    margin-top: 10px;
+}
+
+hr {
+    border-top: 1px dotted;
+}
+.cards {
+   padding-top: 40px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.card {
+    background-color: #FFD500;
+    border: 0px;
+    transition: box-shadow .3s;
+    border-radius: 3px;
+}
+
+.card:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+
+i.fas {
+    color: #5B7151;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    font-size: 45px;
+}
+
+.navbar-custom {
+    background-color: #FFD500;
+    padding-top: 10PX;
+    padding-bottom: 10px;
+}
+
+.btn-custom {
+    background-color: #5B7151;
+    color: #E8E8E8;
+    margin-right: 10px;
+}
+
+.quote {
+    background-color: #5B7151;
+    color: #E8E8E8;
+    font-family: 'Palanquin Dark', sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+#tank1 {
+    transition: box-shadow .3s;
+
+}
+#tank1:hover {
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.4);
+}
+
+#tank2 {
+    transition: box-shadow .3s;
+
+}
+#tank2:hover {
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.4);
+}
+
+footer {
+    background-color: #5B7151;
+    padding-top: 30px;
+
+}
+.copyright {
+    overflow: auto;
+}
+
+.left {
+    float: left;
+    font-family: 'Roboto Mono', monospace;
+    color: #E8E8E8;
+}
+
+.right  {
+    float: right;
+    margin-bottom: 40px;
+}
+
+
