@@ -80,3 +80,22 @@ hr.dotted {
     background-color: #FFD500;
     margin-bottom: 15%;
 }
+footer {
+    background-color: #5B7151;
+    padding-top: 30px;
+
+}
+.copyright {
+    overflow: auto;
+}
+
+.left {
+    float: left;
+    font-family: 'Roboto Mono', monospace;
+    color: #E8E8E8;
+}
+
+.right  {
+    float: right;
+    margin-bottom: 40px;
+}
