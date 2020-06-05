@@ -1,0 +1,44 @@
+body {
+    background-color: #E8E8E8;
+}
+
+.gallery {
+    margin: 0 auto;
+}
+
+.gallery img {
+    transition: 1s;
+    padding: 15px;
+    width: 200px;
+}
+
+.gallery img:hover {
+    filter: sepia(0.80);
+    transform: scale(1.1);
+}
+
+nav {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.navbar-custom {
+    background-color: #FFD500;
+    padding-top: 15PX;
+    padding-bottom: 15px;
+}
+
+.btn-custom {
+    background-color: #5B7151;
+    color: #E8E8E8;
+    margin-right: 10px;
+}
+
+
+
+footer {
+    background-color: #5B7151;
+    font-family: 'Roboto Mono', monospace;
+    color: #fff;
+    padding: 10px;
+}
+
