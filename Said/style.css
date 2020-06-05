@@ -1,0 +1,143 @@
+.title{
+    text-align: center;
+    font-size: 60px;
+    background-color: #5B7151;
+    height: 80px;
+    z-index: 1;
+    font-family: 'Palanquin Dark', sans-serif;
+    color: #E8E8E8;
+}
+
+#carpic{
+    object-fit: cover;
+}
+
+.today{
+    color: #FFD500;
+}
+
+#carouselExampleControls{
+    z-index: 0;
+}
+
+.container{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.card{
+    background-color: #FFD500;
+    text-align: center;
+}
+
+.card-title{
+    font-family: 'Palanquin Dark', sans-serif;
+    color: #5B7151;
+
+}
+
+.card-text{
+    font-family: 'Roboto Mono', monospace;
+    color: #8A8080;
+}
+
+.card-img-top{
+    background-color: #5B7151;
+}
+
+.card-footer{
+    background-color: #FFD500;
+    border-top: none;
+}
+
+i.fas {
+    color: #5B7151;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    font-size: 45px;
+}
+
+body{
+    background-color: #E8E8E8;
+}
+
+
+nav {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.navbar-custom {
+    background-color: #FFD500;
+    padding-top: 15PX;
+    padding-bottom: 15px;
+}
+
+.btn-custom {
+    background-color: #5B7151;
+    color: #E8E8E8;
+    margin-right: 10px;
+}
+
+
+footer {
+    background-color: #5B7151;
+    padding-top: 30px;
+}
+.copyright {
+    overflow: auto;
+    margin-bottom: 0;
+    margin-top:0;
+}
+
+.left {
+    float: left;
+    font-family: 'Roboto Mono', monospace;
+    color: #E8E8E8;
+}
+
+.right  {
+    float: right;
+    margin-bottom: 40px;
+}
+
+
+hr {
+    border-top: 1px dotted;
+}
+
+
+@media screen and (max-width: 992px) {
+    .navbar-toggler {
+        background-color: #5B7151;
+        color: #E8E8E8;
+        font-family: 'Roboto Mono', monospace;
+        border: none;
+    }
+}
+
+body {
+    background-color: #E8E8E8;
+    margin: auto;
+}
+
+.navbar-custom {
+    background-color: #FFD500;
+    padding-top: 10PX;
+    padding-bottom: 10px;
+}
+
+A.nav-link {
+    font-family: 'Roboto Mono', monospace;
+    color: #5B7151;
+}
+
+A.nav-link:hover {
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: underline;
+}
+
+.btn-custom {
+    background-color: #5B7151;
+    color: #E8E8E8;
+    margin-right: 10px;
+}
