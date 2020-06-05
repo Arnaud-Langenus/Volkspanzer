@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Palanquin+Dark&family=Roboto+Mono&display=swap');
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #E8E8E8;
+}
+
+#quote {
+    height: 125px;
+}
+
+h3 {
+    width: 100%;
+}
+
+.intro {
+    margin-top: 190px;
+}
+
+.middle {
+    margin-left: 15%;
+}
+
+.text-negative {
+    margin-left: -24%;
+    width: 624px;
+}
+
+.non-left {
+    margin-left: 35% !important;
+}
+
+.gray-subtext {
+    color: #8A8080;
+    text-decoration: underline;
+    text-decoration-color: #5B7151;
+}
+
+.title {
+    margin-left: -25%;
+    padding-bottom: 4px;
+    font-size: 50px;
+    color: #5B7151;
+    text-decoration: underline;
+    text-decoration-color: #FFD500;
+}
+
+hr.dotted {
+    border-top: 5px dotted #5B7151;
+    width: 85%;
+}
+
+.mid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.font-pala {
+    font-family: 'Palanquin Dark', sans-serif;
+}
+
+.font-robot {
+    font-family: 'Roboto Mono', monospace;
+    color: #5B7151;
+}
+.bg-green {
+    background-color: #5B7151;
+}
+
+.content {
+    background-color: #E8E8E8;
+}
+
+.rnd-img {
+    border-radius: 50%;
+    background-color: #FFD500;
+    margin-bottom: 15%;
+}
