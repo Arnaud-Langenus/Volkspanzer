@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Palanquin+Dark&family=Roboto+Mono&display=swap');
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #E8E8E8;
+}
+
+#quote {
+    height: 125px;
+}
+
+h3 {
+    width: 100%;
+}
+
+.intro {
+    margin-top: 190px;
+}
+
+.middle {
+    margin-left: 15%;
+}
+
+.text-negative {
+    margin-left: -24%;
+    width: 624px;
+}
+
+.non-left {
+    margin-left: 35% !important;
+}
+
+.gray-subtext {
+    color: #8A8080;
+    text-decoration: underline;
+    text-decoration-color: #5B7151;
+}
+
+.title {
+    margin-left: -25%;
+    padding-bottom: 4px;
+    font-size: 50px;
+    color: #5B7151;
+    text-decoration: underline;
+    text-decoration-color: #FFD500;
+}
+
+hr.dotted {
+    border-top: 1px dotted #5B7151;
+    width: 85%;
+}
+
+.mid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.font-pala {
+    font-family: 'Palanquin Dark', sans-serif;
+}
+
+.font-robot {
+    font-family: 'Roboto Mono', monospace;
+    color: #5B7151;
+}
+.bg-green {
+    background-color: #5B7151;
+}
+
+.content {
+    background-color: #E8E8E8;
+}
+
+.rnd-img {
+    border-radius: 50%;
+    background-color: #FFD500;
+    margin-bottom: 15%;
+}
+footer {
+    background-color: #5B7151;
+    padding-top: 30px;
+
+}
+.copyright {
+    overflow: auto;
+}
+
+.left {
+    float: left;
+    font-family: 'Roboto Mono', monospace;
+    color: #E8E8E8;
+}
+
+.right  {
+    float: right;
+    margin-bottom: 40px;
+}
+@media screen and (max-width: 992px) {
+    .navbar-toggler {
+        background-color: #5B7151;
+        color: #E8E8E8;
+        font-family: 'Roboto Mono', monospace;
+        border: none;
+    }
+}
+
+body {
+    background-color: #E8E8E8;
+    margin: auto;
+}
+
+.navbar-custom {
+    background-color: #FFD500;
+    padding-top: 10PX;
+    padding-bottom: 10px;
+}
+
+A.nav-link {
+    font-family: 'Roboto Mono', monospace;
+    color: #5B7151;
+}
+
+A.nav-link:hover {
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: underline;
+}
+
+.btn-custom {
+    background-color: #5B7151;
+    color: #E8E8E8;
+    margin-right: 10px;
+}
