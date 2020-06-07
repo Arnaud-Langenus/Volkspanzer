@@ -1,11 +1,13 @@
 .title{
-    text-align: center;
     font-size: 60px;
     background-color: #5B7151;
     height: 80px;
     z-index: 1;
     font-family: 'Palanquin Dark', sans-serif;
     color: #E8E8E8;
+    display:flex;
+    justify-content:center;
+    align-items: center;
 }
 
 #carpic{
@@ -33,7 +35,6 @@
 .card-title{
     font-family: 'Palanquin Dark', sans-serif;
     color: #5B7151;
-
 }
 
 .card-text{
