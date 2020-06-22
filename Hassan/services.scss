@@ -9,7 +9,7 @@ $paragraph-font-family: 'Roboto Mono', monospace;
 @import url('https://fonts.googleapis.com/css2?family=Palanquin+Dark&display=swap');
 
 body {
-  background-color: #E8E8E8;
+  background-color: $background;
 }
 
 /* header */
@@ -19,16 +19,26 @@ header {
   }
 
   .navbar-custom {
-    background-color: #FFD500;
-    padding-top: 15PX;
-    padding-bottom: 15px;
+    background-color: $yellow;
+    padding-top: 10PX;
+    padding-bottom: 10px;
   }
 
   .btn-custom {
-    background-color: #5B7151;
-    color: #E8E8E8;
+    background-color: $green;
+    color: $background;
     margin-right: 10px;
   }
+
+  .nav-link {
+    font-family: 'Roboto Mono', monospace;
+    color: $green;
+}
+
+  .nav-link:hover {
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: underline;
+}
 }
 
 
@@ -44,8 +54,7 @@ header {
   .row {
     width: 100%;
     background-color: $background;
-    box-shadow: -9px -14px 185px -59px rgba(0, 0, 0, 0.38);
-
+    box-shadow: -2px 2px 48px -14px rgba(0, 0, 0, 0.15);
     margin: 0;
   }
 
@@ -84,7 +93,7 @@ header {
   .btn:hover {
     background-color: $green;
     border-radius: 2rem;
-    box-shadow: -2px 2px 96px -82px rgba(0, 0, 0, 0.35);
+    box-shadow: -2px 2px 48px -14px rgba(0, 0, 0, 0.38);
   }
 
 }
@@ -133,11 +142,22 @@ header {
 }
 
 
+/* Responsive */
+@media screen and (max-width: 992px) {
+  .navbar-toggler {
+      background-color: #5B7151;
+      color: #E8E8E8;
+      font-family: 'Roboto Mono', monospace;
+      border: none;
+  }
+ }
+
+
 /* footer */
 footer {
-  background-color: #5B7151;
+  background-color: $green;
   font-family: 'Roboto Mono', monospace;
-  color: #fff;
+  color: $background;
   padding: 10px;
 }
 
